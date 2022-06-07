@@ -35,8 +35,8 @@ li {
 }
 
 .contacts-list__item:hover {
-    transform: scale(1.03);
     color: #95a5a6;
+    transform: scale(1.03);
 }
 
 .container {
@@ -47,17 +47,17 @@ li {
 
 .header {
     height: 60px;
-    background: #34495e;
     color: #ecf0f1;
+    background: #34495e;
     border-bottom: 1px solid #dbdada;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 
 .header__container {
-    padding: 0 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 14px;
 }
 
 .name {
@@ -103,10 +103,10 @@ li {
 }
 
 .footer__container {
-    padding: 0 14px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 14px;
 }
 
 .logo {
