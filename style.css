@@ -6,7 +6,8 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #e5e5e5;
+    color: #2c3e50;
+    background-color: #ecf0f1;
     font-family: 'Lato', sans-serif;
 }
 
@@ -34,7 +35,8 @@ li {
 }
 
 .contacts-list__item:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
+    color: #95a5a6;
 }
 
 .container {
@@ -44,9 +46,11 @@ li {
 }
 
 .header {
-    height: 80px;
-    background: white;
-    border-bottom: 1px solid #cabbbb;
+    height: 60px;
+    background: #34495e;
+    color: #ecf0f1;
+    border-bottom: 1px solid #dbdada;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 
 .header__container {
@@ -62,7 +66,7 @@ li {
 }
 
 .main {
-    height: calc(100vh - 80px - 80px);
+    height: calc(100vh - 60px - 60px);
 }
 
 .container__main {
@@ -74,7 +78,7 @@ li {
     width: 220px;
     height: 100%;
     background-color: white;
-    border-right: 1px solid #cabbbb;
+    border-right: 1px solid #dbdada;
 }
 
 .content {
@@ -86,9 +90,10 @@ li {
 }
 
 .footer {
-    height: 80px;
-    background-color: white;
+    height: 60px;
+    background-color: #34495e;
     border-top: 1px solid #cabbbb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
 }
 
 .footer__container {
@@ -103,5 +108,6 @@ li {
 }
 
 .link {
-    font-weight: 700;
+    font-weight: 900;
+    color: #27ae60;
 }
