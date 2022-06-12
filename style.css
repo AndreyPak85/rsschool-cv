@@ -1,3 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    margin: 6px 0;
+}
+
+.contacts-list {
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-list__item {
+    margin-bottom: 14px;
+    font-size: 12px;
+}
+
+.contacts-list__item:hover {
+    color: #95a5a6;
+    transform: scale(1.03);
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    height: 100%;
+}
+
+.header {
+    height: 60px;
+    color: #ecf0f1;
+    background: #34495e;
+    border-bottom: 1px solid #dbdada;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+.photo {
+    width: 100%;
+    height: 220px;
+    object-position: center;
+    object-fit: cover;
+    margin-bottom: 14px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.main {
+    height: calc(100vh - 60px - 60px);
+}
+
+.container__main {
+    display: flex;
+}
+
+.sidebar {
+    padding: 24px;
+    width: 220px;
+    height: 100%;
+    background-color: #bdc3c7;
+    border-right: 1px solid #dbdada;
+}
+
+.content {
+    padding: 24px;
+    width: calc(100% - 220px);
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+}
+
+.footer {
+    height: 60px;
+    background-color: #34495e;
+    color: #ecf0f1;
+    border-top: 1px solid #cabbbb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+}
+
+.footer a {
+    color: #ecf0f1;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.link {
+    font-weight: 900;
 }
