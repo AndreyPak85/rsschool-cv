@@ -131,3 +131,7 @@ li {
 .link {
     font-weight: 900;
 }
+
+.code-example {
+    background-color: #e5e5e5;
+}
